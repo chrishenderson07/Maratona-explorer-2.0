@@ -330,6 +330,14 @@ a {
 }
 
 
+/*Responsivity*/
+
+@media (max-width: 767px) {
+ body {
+    overflow-x: hidden!important;
+    overflow-y: hidden!important;
+  }
+}
 
 
 
