@@ -26,9 +26,14 @@ body {
   justify-content: center;
   align-items: center;
 
+<<<<<<< HEAD
   overflow-y: hidden!important;
   overflow-x: hidden!important;
 
+=======
+  overflow-x: hidden!important;
+  overflow-y: hidden!important;
+>>>>>>> d64b58cd341d6f07dfdfee6601670b9147cb3ade
 }
 
 a {
@@ -339,6 +344,7 @@ a {
 
 @media (max-width: 767px) {
  body {
+<<<<<<< HEAD
   
   width: 100vw;
   height: 100vh;
@@ -353,6 +359,10 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+=======
+    overflow-x: hidden!important;
+    overflow-y: hidden!important;
+>>>>>>> d64b58cd341d6f07dfdfee6601670b9147cb3ade
   }
 }
 
