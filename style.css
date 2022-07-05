@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden!important;
+  overflow-y: hidden!important;
 }
 
 :root {
@@ -26,14 +28,9 @@ body {
   justify-content: center;
   align-items: center;
 
-<<<<<<< HEAD
-  overflow-y: hidden!important;
-  overflow-x: hidden!important;
 
-=======
   overflow-x: hidden!important;
   overflow-y: hidden!important;
->>>>>>> d64b58cd341d6f07dfdfee6601670b9147cb3ade
 }
 
 a {
@@ -123,7 +120,8 @@ a {
 }
 
 .particle {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .particle span:nth-child(1){
@@ -137,7 +135,7 @@ a {
   z-index: -1;
 
   top: 0;
-  right: 25px;
+  right: 3%;
 
   animation: flash-lights-up 10000ms infinite ease-in-out;
 }
@@ -152,7 +150,7 @@ a {
   z-index: -1;
 
   top: 0;
-  left: 250px;
+  left: 28%;
 
   animation: flash-lights-up 8000ms infinite ease-in-out;
 }
@@ -167,7 +165,7 @@ a {
   z-index: -1;
 
   top: 0;
-  right: 500px;
+  right: 59%;
 
   animation: flash-lights-up 11000ms infinite ease-in;
 }
@@ -182,7 +180,7 @@ a {
   z-index: -1;
 
   top: 0;
-  right: 800px;
+  right: 53%;
 
   animation: flash-lights-up 13000ms infinite ease-in-out;
 }
@@ -197,7 +195,7 @@ a {
   z-index: -1;
 
   top: 0;
-  left: 400px;
+  left: 87%;
 
   animation: flash-lights-up 8500ms infinite ease-in-out;
 }
@@ -212,7 +210,7 @@ a {
   z-index: -1;
 
   top: 0;
-  left: 650px;
+  left: 66%;
 
   animation: flash-lights-up 6000ms 800ms infinite ease-in-out;
 }
@@ -227,7 +225,7 @@ a {
   z-index: -1;
 
   top: 0;
-  left: 740px;
+  left: 71%;
 
   animation: flash-lights-up 4000ms 400ms infinite ease-in-out;
 }
@@ -242,7 +240,7 @@ a {
   z-index: -1;
 
   top: 0;
-  left: 200px;
+  left: 33%;
 
   animation: flash-lights-up 10000ms 200ms infinite ease-in-out;
 }
@@ -257,7 +255,7 @@ a {
   z-index: -1;
 
   top: 0;
-  left: 200px;
+  left: 15%;
 
   animation: flash-lights-up 15000ms 300ms infinite ease-in-out;
 }
@@ -272,7 +270,7 @@ a {
   z-index: -1;
 
   top: 0;
-  right: 350px;
+  right: 35%;
 
   animation: flash-lights-up 7000ms 500ms infinite ease-in-out;
 }
@@ -287,7 +285,7 @@ a {
   z-index: -1;
 
   top: 0;
-  right: 200px;
+  right: 20%;
 
   animation: flash-lights-up 6000ms 200ms infinite ease-in-out;
 }
@@ -300,7 +298,7 @@ a {
   z-index: -1;
 
   top: 0;
-  right: 60%;
+  right: 91%;
 
   background: rgb(134,244,66);
   background: radial-gradient(circle, rgba(134,244,66,1) 0%, rgba(93,194,30,1) 15%, rgba(19,22,30,0) 55%);
@@ -319,7 +317,7 @@ a {
   z-index: -1;
 
   top: 0;
-  left: 55%;
+  left: 41%;
 
   animation: flash-lights-up 7000ms 100ms infinite ease-in-out;
 }
@@ -334,14 +332,35 @@ a {
   z-index: -1;
 
   top: 0;
-  left: 45%;
+  left: 86%;
 
   animation: flash-lights-up 13000ms 100ms infinite ease-in-out;
 }
 
 
 /*Responsivity*/
+  @media (max-width: 750px){
+    :root {
+      overflow-x: hidden!important;
+      overflow-y: hidden!important;
+    }
+    
+    * {
+      overflow-x: hidden!important;
+      overflow-y: hidden!important;
+    }
 
+    body {
+      overflow-x: hidden!important;
+      overflow-y: hidden!important;
+    }
+
+    .particle {
+      overflow-x: hidden!important;
+      overflow-y: hidden!important;
+}
+    
+  }
 
 /*Animations*/
 
