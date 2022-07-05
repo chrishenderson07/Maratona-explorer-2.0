@@ -342,31 +342,6 @@ a {
 
 /*Responsivity*/
 
-@media (max-width: 767px) {
- body {
-<<<<<<< HEAD
-  
-  width: 100vw;
-  height: 100vh;
-
-  margin: 0 auto;
-
-  padding: 1rem 2rem 2rem;
-
-  background: #0c0f16;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-=======
-    overflow-x: hidden!important;
-    overflow-y: hidden!important;
->>>>>>> d64b58cd341d6f07dfdfee6601670b9147cb3ade
-  }
-}
-
-
 
 /*Animations*/
 
