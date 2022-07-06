@@ -110,6 +110,9 @@ a {
   font: normal 500 1.8rem var(--ff-card);
 
   width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   cursor: pointer;
   transition: transform 0.5s;
